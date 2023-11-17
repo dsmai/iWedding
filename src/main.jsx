@@ -1,0 +1,8 @@
+// import App from './App.jsx'
+import '../styles/modern-normalize.css'
+import '../styles/index.css'
+import '../styles/components/header.css'
+import '../styles/components/mobile-nav.css'
+import '../styles/components/main.css'
+import '../styles/components/slider.css'
+import '../styles/utils.css'

@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    /* Remove the dot in the unordered list */
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* border: 1px solid red; */
+    padding: 0;
+    gap: 2em;
+}
+
+.main__title {
+    /* This is a flex box */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main__bars {
+    color: black;
+    background-color: white;
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
